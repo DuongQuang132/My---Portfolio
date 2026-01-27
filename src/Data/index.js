@@ -61,7 +61,7 @@ export const projects = [
     desc: "Ứng dụng theo dõi thời tiết thời gian thực cho mọi thành phố trên thế giới. Tích hợp OpenWeatherMap API để lấy dữ liệu nhiệt độ, độ ẩm và sức gió. Xử lý bất đồng bộ (Async/Await) và quản lý trạng thái tải trang (Loading State).",
     role: "Front-end Developer",
     tech: ["ReactJS", "OpenWeatherMap API", "Axios", "Fetch API", "CSS Glassmorphism"],
-    demoLink: "https://weather-app-demo.com", 
+    demoLink: "https://weatherdemolink.vercel.app/", 
     repoLink: "https://github.com/DuongQuang132/Real-Time-Weather.git",
     image: "/images/Weather-App.png"
   }
