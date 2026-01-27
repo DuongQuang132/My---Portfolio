@@ -9,6 +9,9 @@ const Hero = () => {
 
       <div className="hero-content container">
         <p className="hero-greeting">Chào mừng đến với trang giới thiệu bản thân của tôi !</p>
+        <div className="hero-avatar-box">
+          <img src={heroInfo.avatar} alt={heroInfo.name} className="hero-avatar" />
+        </div>
         <h1 className="hero-name">
           {heroInfo.name}
         </h1>

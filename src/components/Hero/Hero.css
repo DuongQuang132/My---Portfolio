@@ -20,6 +20,30 @@
   letter-spacing: 2px;
 }
 
+.hero-avatar-box {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-avatar {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid var(--bg-card);
+  outline: 3px solid var(--primary);
+  box-shadow: 0 0 30px rgba(0, 242, 255, 0.3),
+              0 0 60px rgba(189, 52, 254, 0.2);         
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.hero-avatar:hover {
+  box-shadow: 0 0 50px rgba(0, 242, 255, 0.6), 
+              0 0 100px rgba(189, 52, 254, 0.4);
+  outline-color: var(--secondary);
+}
+
 .hero-name {
   font-size: 3.5rem;
   font-weight: 700;

@@ -7,6 +7,7 @@ export const navLinks = [
 
 export const heroInfo = {
   name: "Trịnh Đường Quang",
+  avatar: "/images/avatar.jpg",
   title: "Sinh viên ngành Công Nghệ Thông Tin",
   description: "Sinh viên năm 4 chuyên ngành Kỹ sư phần mềm. Mong muốn trở thành một lập trình viên Front-end và học tập kiến thức, kinh nghiệm từ các anh chị đi trước.",
 };
@@ -50,26 +51,26 @@ export const projects = [
     desc: "Trang web giới thiệu bản thân và trình bày các dự án cá nhân, được xây dựng với React và Vite để tối ưu hiệu suất và trải nghiệm người dùng.",
     role: "Full-stack Developer",
     tech: ["React", "Vite", "CSS Modules", "Responsive Design"],
-    demoLink: "https://my-portfolio.com",
-    repoLink: "https://github.com/username/portfolio",
+    demoLink: "https://myportfolio-hazel-three-75.vercel.app/",
+    repoLink: "https://github.com/DuongQuang132/My---Portfolio.git",
     image: "/images/my-portfolio.png"
   },
-  {
+{
     id: 3,
-    title: "E-commerce & Shopping Cart",
-    desc: "Website thương mại điện tử mô phỏng tính năng giỏ hàng, lọc sản phẩm nâng cao và xử lý thanh toán.",
+    title: "Real-time Weather App",
+    desc: "Ứng dụng theo dõi thời tiết thời gian thực cho mọi thành phố trên thế giới. Tích hợp OpenWeatherMap API để lấy dữ liệu nhiệt độ, độ ẩm và sức gió. Xử lý bất đồng bộ (Async/Await) và quản lý trạng thái tải trang (Loading State).",
     role: "Front-end Developer",
-    tech: ["React", "Context API", "Styled Components"],
-    demoLink: "https://shop-demo.com",
-    repoLink: "https://github.com/username/shop",
-    image: "https://images.unsplash.com/photo-1556742049-0cfed4f7a07d?auto=format&fit=crop&q=80&w=1000"
-  },
+    tech: ["ReactJS", "OpenWeatherMap API", "Axios", "Fetch API", "CSS Glassmorphism"],
+    demoLink: "https://weather-app-demo.com", 
+    repoLink: "https://github.com/DuongQuang132/Real-Time-Weather.git",
+    image: "/images/Weather-App.png"
+  }
 ];
 
 
 export const contactInfo = {
   title: "Liên hệ với tôi",
-  subtitle: "Hiện tại tôi đang tìm kiếm công ty thực tập để có cơ hội học tập và tích lũy kinh nghiệm làm việc thực tế. Nếu bạn có bất kỳ cơ hội nào phù hợp, xin hãy liên hệ với tôi!",
+  subtitle: "Hiện tại tôi đang tìm kiếm công ty thực tập để có cơ hội học tập và tích lũy kinh nghiệm làm việc thực tế từ các anh/chị đi trước. Nếu bạn có bất kỳ cơ hội nào phù hợp, xin hãy liên hệ với tôi!",
   email: "trinhduongquang132@gmail.com",
   phone: "0842 863 646",
   address: "TP. Hồ Chí Minh, Việt Nam",
