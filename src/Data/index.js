@@ -82,7 +82,7 @@ export const contactInfo = {
     },
     {
       name: "LinkedIn",
-      url: "https://linkedin.com/in/yourusername",
+      url: "https://www.linkedin.com/in/tr%E1%BB%8Bnh-%C4%91%C6%B0%E1%BB%9Dng-quang/",
       icon: "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png"
     },
     {
