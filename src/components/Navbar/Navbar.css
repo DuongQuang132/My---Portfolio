@@ -46,3 +46,23 @@
 .navbar a:hover::after {
   width: 100%;
 }
+
+@media (max-width: 768px) {
+  .navbar ul {
+    gap: 1.5rem;
+  }
+
+  .navbar a {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar ul {
+    gap: 1.4rem;
+  }
+
+  .navbar a {
+    font-size: 0.7rem;
+  }
+}

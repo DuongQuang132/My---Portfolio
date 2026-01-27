@@ -98,11 +98,23 @@
 @media (max-width: 768px) {
   .contact-details {
     padding: 1.5rem;
-    width: 100%;
+    max-width: 500px;
     align-items: flex-start;
   }
   
   .detail-item {
     font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-details {
+    padding: 1.5rem;
+    max-width: 300px;
+    align-items: flex-start;
+  }
+  
+  .detail-item {
+    font-size: 0.8rem;
   }
 }

@@ -21,8 +21,11 @@ const Hero = () => {
           <a href="#projects" className="btn-galaxy-primary">
             Dự Án Của Tôi
           </a>
-          <a href="#contact" className="btn-galaxy-outline">
+          <a href="#contact" className="btn-galaxy-primary">
             Liên Hệ
+          </a>
+          <a href="/Trinh_Duong_Quang_Frontend_Intern.pdf" download className="btn-galaxy-primary">
+            CV Của Tôi
           </a>
         </div>
       </div>

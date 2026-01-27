@@ -9,7 +9,7 @@ export const heroInfo = {
   name: "Trịnh Đường Quang",
   avatar: "/images/avatar.jpg",
   title: "Sinh viên ngành Công Nghệ Thông Tin",
-  description: "Sinh viên năm 4 chuyên ngành Kỹ sư phần mềm. Mong muốn trở thành một lập trình viên Front-end và học tập kiến thức, kinh nghiệm từ các anh chị đi trước.",
+  description: "Sinh viên năm 4 chuyên ngành Kỹ sư phần mềm. Mong muốn trở thành một thực tập sinh Front-end để học tập kiến thức, kinh nghiệm từ các anh chị đi trước.",
 };
 
 
@@ -38,9 +38,9 @@ export const projects = [
 {
     id: 1,
     title: "Website Công ty An Thái Khang",
-    desc: "Xây dựng giao diện Front-end cho website doanh nghiệp. Trực tiếp phát triển UX/UI cho các trang trọng yếu: Trang chủ, Trang Dự án tiêu biểu, và Trang Liên hệ.",
+    desc: "Xây dựng giao diện Front-end cho website doanh nghiệp. Đảm nhận phát triển giao diện các trang trọng yếu: Trang chủ, Trang Dự án tiêu biểu, và Trang Liên hệ.",
     role: "Front-end Developer",
-    tech: ["ReactJS", "CSS Modules", "React Router", "Responsive Design"],
+    tech: ["ReactJS (Vite)", "HTML5", "CSS3", "JavaScript (ES6+)"],
     demoLink: null,
     repoLink: null, 
     image: "/images/AnThaiKhang-Project.png" 
@@ -50,7 +50,7 @@ export const projects = [
     title: "Portfolio Cá Nhân",
     desc: "Trang web giới thiệu bản thân và trình bày các dự án cá nhân, được xây dựng với React và Vite để tối ưu hiệu suất và trải nghiệm người dùng.",
     role: "Full-stack Developer",
-    tech: ["React", "Vite", "CSS Modules", "Responsive Design"],
+    tech: ["ReactJS (Vite)", "HTML5", "CSS3", "JavaScript (ES6+)"],
     demoLink: "https://myportfolio-hazel-three-75.vercel.app/",
     repoLink: "https://github.com/DuongQuang132/My---Portfolio.git",
     image: "/images/my-portfolio.png"
@@ -60,7 +60,8 @@ export const projects = [
     title: "Real-time Weather App",
     desc: "Ứng dụng theo dõi thời tiết thời gian thực cho mọi thành phố trên thế giới. Tích hợp OpenWeatherMap API để lấy dữ liệu nhiệt độ, độ ẩm và sức gió. Xử lý bất đồng bộ (Async/Await) và quản lý trạng thái tải trang (Loading State).",
     role: "Front-end Developer",
-    tech: ["ReactJS", "OpenWeatherMap API", "Axios", "Fetch API", "CSS Glassmorphism"],
+    tech: ["ReactJS", "HTML5", "CSS3", "OpenWeatherMap API", "JavaScript (ES6+)",
+],
     demoLink: "https://weatherdemolink.vercel.app/", 
     repoLink: "https://github.com/DuongQuang132/Real-Time-Weather.git",
     image: "/images/Weather-App.png"
