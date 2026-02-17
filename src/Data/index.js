@@ -41,7 +41,7 @@ export const projects = [
     desc: "Xây dựng giao diện Front-end cho website doanh nghiệp. Đảm nhận phát triển giao diện các trang trọng yếu: Trang chủ, Trang Dự án tiêu biểu, và Trang Liên hệ.",
     role: "Front-end Developer",
     tech: ["ReactJS (Vite)", "HTML5", "CSS3", "JavaScript (ES6+)"],
-    demoLink: null,
+    demoLink: "http://anthaikhang.com/vi",
     repoLink: null, 
     image: "/images/AnThaiKhang-Project.png" 
   },
@@ -51,7 +51,7 @@ export const projects = [
     desc: "Trang web giới thiệu bản thân và trình bày các dự án cá nhân, được xây dựng với React và Vite để tối ưu hiệu suất và trải nghiệm người dùng.",
     role: "Full-stack Developer",
     tech: ["ReactJS (Vite)", "HTML5", "CSS3", "JavaScript (ES6+)"],
-    demoLink: "https://myportfolio-hazel-three-75.vercel.app/",
+    demoLink: "https://trinhduongquang-portfolio.vercel.app/",
     repoLink: "https://github.com/DuongQuang132/My---Portfolio.git",
     image: "/images/my-portfolio.png"
   },

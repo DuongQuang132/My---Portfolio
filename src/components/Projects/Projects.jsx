@@ -40,7 +40,7 @@ const Projects = () => {
 
                   {project.demoLink ? (
                     <a href={project.demoLink} target="_blank" rel="noreferrer" className="btn-action demo">
-                      Live Demo
+                      Website
                     </a>
                   ) : (
                     <span className="btn-disabled">Đang phát triển</span>
